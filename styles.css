@@ -36,21 +36,21 @@ html, body, nav {
 }
 
 nav {
+  background: #B9E2F0;
+  box-shadow: 0 4px 12px -8px;
   height: 100px;
   width: 100%;
   position: fixed;
-  background: #B9E2F0;
   z-index:999;
-  box-shadow: 0 4px 12px -8px;
 }
 
 nav h1 {
   font-family: comiccomoc;
   font-size: 60px;
   color: #AB69DB;
+  padding-left: 240px;
   position: relative;
   bottom: 36px;
-  padding-left: 240px;
   float: left;
 }
 
@@ -67,9 +67,8 @@ nav a {
   font-size: 20px;
   color: #3423A6;
   text-decoration: none;
-  transition: ease-in-out .2s;
-  padding: 4px;
   padding: 0 40px 0 40px;
+  transition: ease-in-out .2s;
 }
 
 nav a:hover {
@@ -94,26 +93,24 @@ nav a:hover {
 
 .content p {
   font-family: PinkChicken;
-  color: #3423A6;
   font-size: 20px;
-  tab-size: 8px;
-  border-style: dotted;
-  border: dotted 4px white;
-  padding: 40px 120px 40px 120px;
-  text-align: justify;
-  width: 620px;
+  color: #3423A6;
   background: #B9E2F0;
+  border: dotted 4px white;
+  width: 620px;
+  text-align: justify;
+  padding: 60px 120px 60px 120px;
 }
 
 .content img {
-  padding: 0 0 10px 24px
+  padding: 0 0 12px 24px
 }
 
 .catalogue {
-  position: relative;
-  top: 80px;
-  width: 100%;
   padding: 40px 0;
+  position: relative;
+  top: 120px;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
