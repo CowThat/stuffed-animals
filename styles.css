@@ -1,0 +1,155 @@
+@font-face {
+  font-family: comiccomoc;
+  src: url(fonts/comiccomoc.ttf)
+}
+
+@font-face {
+  font-family: PinkChicken;
+  src: url(fonts/PinkChicken-Regular.ttf)
+}
+
+@font-face {
+  font-family: HappyChicken;
+  src: url(fonts/happy_chicken/HappyChicken.ttf);
+}
+
+/* colors
+  light blue: #B9E2F0
+  Maya blue: #62BFED
+  Blue Pantone: #3423A6
+
+  Muave: #D5AFF1
+  Amethyst: #AB69DB
+
+  pink: #F6BCC7
+*/
+
+* {
+  background: #B9E2F0;
+}
+
+html, body, nav {
+  margin: 0;
+  padding: 0;
+  height 100%
+  min-height: 100%;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  background: #B9E2F0;
+  z-index:999;
+  box-shadow: 0 4px 12px -8px;
+}
+
+nav h1 {
+  font-family: comiccomoc;
+  font-size: 60px;
+  color: #AB69DB;
+  position: relative;
+  bottom: 36px;
+  padding-left: 240px;
+  float: left;
+}
+
+nav .nav-buttons {
+  float: right;
+  padding-right: 240px;
+  display: inline;
+  position: relative;
+  top: 36px;
+}
+
+nav a {
+  font-family: PinkChicken;
+  font-size: 20px;
+  color: #3423A6;
+  text-decoration: none;
+  transition: ease-in-out .2s;
+  padding: 4px;
+  padding: 0 40px 0 40px;
+
+}
+
+nav a:hover {
+  color: #AB69DB;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.content {
+  background-image: url(photos/pile.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 220px 0;
+}
+
+.content p {
+  font-family: PinkChicken;
+  color: #3423A6;
+  font-size: 20px;
+  tab-size: 8px;
+  border-style: dotted;
+  border: dotted 4px white;
+  padding: 40px 120px 40px 120px;
+  text-align: justify;
+  width: 620px;
+  background: #B9E2F0;
+}
+
+.content img {
+  padding: 0 0 10px 24px
+}
+
+.catalog {
+  position: relative;
+  top: 80px;
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.catalog ul {
+  list-style: none;
+
+}
+
+.catalog li {
+  color: blue;
+  display: flex;
+  /*justify-content: center;
+  align-items: center;*/
+  padding: 0 0 8px 0;
+}
+
+.catalog a {
+  font-family: PinkChicken;
+  font-size: 40px;
+  color: #AB69DB;
+  text-decoration: none;
+  text-align: left;
+  background-color: #F6BCC7;
+  border: outset 4px white;
+  padding: 10px 360px 10px 360px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  transition: ease-in-out .2s;
+}
+
+.catalog a:hover {
+  background-color: #D5AFF1;
+  color: white;
+}
